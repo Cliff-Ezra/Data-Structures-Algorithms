@@ -4,14 +4,14 @@
 //Nodes -> Stores a piece of data - val
 //Reference to next node - next
 
-//Enqueue (Adding a node to the end of the queue)
+//!Enqueue (Adding a node to the end of the queue)
 //Define a function that accepts some value
 //Create a new node using that value passed to the function
 //If there are no nodes in the queue set this node ot be the first & last property of the queue
 //Otherwise, set the next property on the current last to be that node, and then set the last property on the queue to be that node
 //Increment the size of the queue by 1
 
-//Dequeue (Removing a node from the beginning of the queue)
+//!Dequeue (Removing a node from the beginning of the queue)
 //If there is no first property, return null
 //Store the first property in a variable
 //See if the first is the same as the last (check if there is only 1 node). If so, set the first and last to be null
