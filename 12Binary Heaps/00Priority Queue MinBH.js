@@ -1,7 +1,7 @@
 //Priority Queue is a data structure where each element has a priority. Elements with higher priorities are served before elements with lower priorities.
 //In this priority Queue: 1 is a high priority, 2 is medium and 3 is low priority
 
-//Priority Queue: (Implemented using a min binary heap)
+//!Priority Queue: (Implemented using a min binary heap)
 //Write a Min Binary Heap - lower numbers means higher priority
 //Each node has a val and a priority. Use the priority to build the heap
 //Enqueue method accepts a value and a priority, makes a new node, and puts it in the right spot based off of its priority

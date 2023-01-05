@@ -1,0 +1,4 @@
+Investigate the ordinary queue and priority queue. 
+Implement them each of them on an array and a list. 
+Investigate the performance of your implementations both theoretically and experimentally. 
+Use a petrol service station or election station as your application area.
