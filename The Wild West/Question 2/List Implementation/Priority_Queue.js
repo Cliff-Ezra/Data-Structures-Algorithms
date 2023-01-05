@@ -7,12 +7,6 @@
 //*Dequeueing (removing) an element from the queue requires shifting() the elements therefore removing the first element alone since the elements are sorted in order. O(1) time.
 //*Enqueueing (adding) to the queue takes time since the entire array needs to be traversed in order to find the right place for the element which is determined by its priority. O(n) time.
 
-//create a variable to store the new node created
-//if there is no head in the list, the new variable becomes the new head & tail
-//if there is a head in the list, then traverse the list and compare their priorities to that of the new variable
-//insert the new node at the right position in the list
-//return the list
-
 class Node {
     constructor(val, priority) {
         this.val = val;
