@@ -129,10 +129,7 @@ class SinglyLinkedList {
         let currentHead = this.head
         this.head = currentHead.next;
         this.length--;
-        if(this.length === 0) {
-            this.head = null;
-            this.tail = null;
-        }
+        if(this.length === 0) this.tail = null;
         return currentHead;
     }
     unshift(val) {
